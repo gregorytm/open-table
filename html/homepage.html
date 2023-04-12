@@ -1,0 +1,72 @@
+    <main className="bg-gray-100 min-h-screen w-screen">
+      <main className="max-w-screen-2xl m-auto bg-white">
+        {/* navbar */}
+        <nav className="bg-white p2 flex justify-between">
+          <a href="" className="font-bold text-gray-700 text-2xl">
+            Open Table
+          </a>
+          <div>
+            <div className="flex">
+              <button className="bg-blue-400 border p-1 px-4 rounded mr-3">
+                Sign in
+              </button>
+              <button className="text-black border p-1 px-4 rounded">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </nav>
+        {/* navbar */}
+        <main>
+          {/* HEADER */}
+          <div className="h-64 bg-gradient-to-r from-[#0f1f47] to-[#5f6984] p-2">
+            <div className="text-center mt-10">
+              <h1 className="text-5xl font-bold mb-2">
+                Find your table for any occasion
+              </h1>
+              {/* SEARCH BAR */}
+              <div className="text-left py-3 text-lg m-auto flex justify-center">
+                <input
+                  className="bg-white rounded mr-3 px-2 p-2 w-[450px]"
+                  type="text"
+                  placeholder="State, City, or Town"
+                />
+                <button className="rounded bg-red-600 px-9 py-2">
+                  Let's Go!
+                </button>
+              </div>
+              {/* SEARCH BAR */}
+            </div>
+          </div>
+          {/* HEADER */}
+          {/* CARDS */}
+          <div className="py-3 px-36 mt-10 flex flex-wrap">
+            {/* CARD */}
+            <div className="w-64 h-72 m-3 rounded overflow-hidden border curse-pointer">
+              <img
+                src="https://images.unsplash.com/photo-1612204078213-a227dba74093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2080&q=80"
+                alt=""
+                className="w-full h-36 "
+              />
+              <div className="p-1">
+                <h3 className="font-bold text-2xl mb-2 text-black">
+                  Mistone Grill
+                </h3>
+                <div className="flex items-start">
+                  <div className="flex mb-2 text-black">*****</div>
+                  <p className="ml-2 text-black">77 reviews</p>
+                </div>
+                <div className="flex text-reg text-black font-light capitalize">
+                  <p className="mr-3">Mexican</p>
+                  <p className="mr-3">$$$$</p>
+                  <p>Toronto</p>
+                </div>
+                <p className='text-sm text-black mt-1 font-bold'>Booked 3 times today</p>
+              </div>
+            </div>
+            {/* CARD */}
+          </div>
+          {/* CARDS */}
+        </main>
+      </main>
+    </main>

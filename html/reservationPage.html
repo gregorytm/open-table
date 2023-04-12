@@ -1,0 +1,83 @@
+    <main className="bg-gray-100 min-h-screen w-screen">
+      <main className="max-w-screen-2xl m-auto bg-white">
+        {/* NAVBAR */}
+        <nav className="bg-white p2 flex justify-between">
+          <a href="" className="font-bold text-gray-700 text-2xl">
+            Open Table
+          </a>
+          <div>
+            <div className="flex">
+              <button className="bg-blue-400 border p-1 px-4 rounded mr-3">
+                Sign in
+              </button>
+              <button className="text-black border p-1 px-4 rounded">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </nav>
+        {/* NAVBAR END */}
+        <div className="border-t h-screen">
+          <div className="py- w-3/5 m-auto">
+            {/* HEADER */}
+            <div>
+              <h3 className="font-bold text-black">You're almost done</h3>
+              <div className="mt-5 flex">
+                <img
+                  src="https://images.unsplash.com/photo-1543007630-9710e4a00a20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80"
+                  alt=""
+                  className="w-32 h-18 rounded"
+                />
+                <div className="ml-4">
+                  <h1 className="text-3xl font-bold text-black">
+                    {" "}
+                    Fancy Restraunt
+                  </h1>
+                  <div className="flex mt-3 text-black">
+                    <p className="mr-6">Tues, 22, 2023</p>
+                    <p className="mr-6">7pm</p>
+                    <p className="mr-6">3 people</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* HEADER */}
+            {/* FORM */}
+            <div className="mt-10 flex flex-wrap justify-between w-[660px]">
+              <input
+                type="text"
+                className="border rounded p-3 w-80 mb-4 bg-white"
+                placeholder="first name"
+              />
+              <input
+                type="text"
+                className="border rounded p-3 w-80 mb-4 bg-white"
+                placeholder="last name"
+              />
+              <input
+                type="text"
+                className="border rounded p-3 w-80 mb-4 bg-white"
+                placeholder="phone number"
+              />
+              <input
+                type="text"
+                className="border rounded p-3 w-80 mb-4 bg-white"
+                placeholder="email"
+              />
+              <input
+                type="text"
+                className="border rounded p-3 w-80 mb-4 bg-white"
+                placeholder="Occasion (optional)"
+              />
+              <input
+                type="text"
+                className="border rounded p-3 w-80 mb-4 bg-white"
+                placeholder="requests (optional)"
+              />
+              <button className='bg-red-600 w-full p-3 text-white font-bold rounded disabled:bg-grey-300'>Complete reservation</button>
+              <p className='mt-4 text-sm text-black'>By clicking accept you agree to are tearms of service.  You may opt out of receivng text any time</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </main>
