@@ -1,21 +1,18 @@
 import Link from "next/link"
+import AuthModal from "./AuthModal"
 
 export default function NavBar(){
   return (
-        <nav className="bg-white p2 flex justify-between">
-          <Link href="/" className="font-bold text-gray-700 text-2xl">
-            Open Table
-          </Link>
-          <div>
-            <div className="flex">
-              <button className="bg-blue-400 border p-1 px-4 rounded mr-3">
-                Sign in
-              </button>
-              <button className="text-black border p-1 px-4 rounded">
-                Sign up
-              </button>
-            </div>
-          </div>
-        </nav>
-  )
+    <nav className="bg-white p2 flex justify-between">
+      <Link href="/" className="font-bold text-gray-700 text-2xl">
+        Open Table
+      </Link>
+      <div>
+        <div className="flex">
+          <AuthModal isSignin={true} />
+          <AuthModal isSignin={false} />
+        </div>
+      </div>
+    </nav>
+  );
 }
