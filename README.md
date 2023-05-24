@@ -1,3 +1,5 @@
+open table clone tutorial for learning next 13 with app folder and new route system
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
